@@ -34,7 +34,7 @@
 
  // forth task 👇
 // function countNumbers(numbers){
-//     return numbers.map(char => char.length,0)
+//     return numbers.reduce((total,item) => total + item.length,0)
 // }
 // const words = ["a", "ab", "abc"];
 // console.log(countNumbers(words));
